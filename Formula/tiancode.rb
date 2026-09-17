@@ -7,20 +7,20 @@ class Tiancode < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Dreftian/Tiancode/releases/download/v1.0.0/tiancode-darwin-arm64.zip"
-      sha256 "83a3afc7b395c35e806917afe068037df75888e84535c2acaedbde814825e7ec"
+      sha256 "cdc3530bfc9e5a3cf8dbf864bacf36c11ef8117b6bb1adb77aa281f810e33df7"
     else
       url "https://github.com/Dreftian/Tiancode/releases/download/v1.0.0/tiancode-darwin-x64.zip"
-      sha256 "1a5e2bd2b932f313bcd5301d2f4204e80a33fea6763234ed7f8f4f6b36c0bc5c"
+      sha256 "472cecbbd0cf6ea75eee232d1524f4855631f2633718da40e90575c85dc6a3fb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Dreftian/Tiancode/releases/download/v1.0.0/tiancode-linux-arm64.tar.gz"
-      sha256 "b0bd12e487e716aa137ce016081804d2709ca7d2049139ff8a094050e7bf7c34"
+      sha256 "0c2932f6316507b969fad82f56ba8aea8e3633e4fbbb64969a2ee37cd2e4aca8"
     else
       url "https://github.com/Dreftian/Tiancode/releases/download/v1.0.0/tiancode-linux-x64.tar.gz"
-      sha256 "e178dd59af97e1dc49871f5927b80b0416073a233d61f2a5179d95e8c12bb157"
+      sha256 "50fa93a4aac2507a98afc732088245127dab4b429c803c6cdadce2299ab66a72"
     end
   end
 
